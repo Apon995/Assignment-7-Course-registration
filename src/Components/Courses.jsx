@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Card from './Card';
 
-function Courses() {
+function Courses({data}) {
   return (
-    <div>Courses</div>
+    <>
+    <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
+        {data.map(Course => <Card/>)}
+
+    </div>
+    
+    
+    
+    </>
   )
 }
 
-export default Courses
+Courses.propTypes ={
+    data : PropTypes.array.isRequired,
+}
+export default Courses;
