@@ -6,7 +6,7 @@ function Courses({data}) {
   return (
     <>
     <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
-        {data.map(Course => <Card/>)}
+        {data.map((Course,index) => <Card key={index} Course={Course}/>)}
 
     </div>
     
