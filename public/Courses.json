@@ -1,0 +1,75 @@
+[
+    {
+      "course_id": "C001",
+      "course_name": "Introduction to Python",
+      "course_img": "https://i.ibb.co/PmPr53Z/Python-Featured-Image.png",
+      "course_details": "This comprehensive course will introduce you to the world of Python programming. You will learn the fundamentals, data structures, and how to build applications. Get started today!",
+      "course_price": 49.99,
+      "course_credit": 3
+    },
+    {
+      "course_id": "C002",
+      "course_name": "Web Development with JavaScript",
+      "course_img": "https://i.ibb.co/zQRfYQZ/web-develop-with-js.webp",
+      "course_details": "Master the art of web development using JavaScript and its libraries. Dive deep into front-end and back-end development to create dynamic, interactive websites and applications.",
+      "course_price": 59.99,
+      "course_credit": 4
+    },
+    {
+      "course_id": "C003",
+      "course_name": "Data Science with R",
+      "course_img": "https://i.ibb.co/1fMXmpJ/Data-science-image.jpg",
+      "course_details": "Explore the world of data science using the R programming language. From data analysis to machine learning, this course covers it all. Start your data science journey now!",
+      "course_price": 69.99,
+      "course_credit": 4
+    },
+    {
+      "course_id": "C004",
+      "course_name": "Mobile App Development with React Native",
+      "course_img": "https://i.ibb.co/8szwDjt/App-development-with-react-native.jpg",
+      "course_details": "Build mobile apps for both Android and iOS using the powerful React Native framework. Create real-world applications and deploy them to app stores.",
+      "course_price": 79.99,
+      "course_credit": 5
+    },
+    {
+      "course_id": "C005",
+      "course_name": "Machine Learning Fundamentals",
+      "course_img": "https://i.ibb.co/JxLfQSV/Machine-learning.jpg",
+      "course_details": "Gain a solid foundation in machine learning with this course. Learn algorithms, data preprocessing, and model building. Apply ML to real-world problems.",
+      "course_price": 89.99,
+      "course_credit": 5
+    },
+    {
+      "course_id": "C006",
+      "course_name": "Full-Stack Web Development with Node.js",
+      "course_img": "https://i.ibb.co/M9JQMZH/Full-stack-developement.webp",
+      "course_details": "Become a versatile full-stack web developer using Node.js. From server-side programming to front-end design, this course covers it all.",
+      "course_price": 99.99,
+      "course_credit": 6
+    },
+    {
+      "course_id": "C007",
+      "course_name": "Game Development with Unity",
+      "course_img": "https://i.ibb.co/bJ0S4dR/Game-development.webp",
+      "course_details": "Bring your game development ideas to life with Unity. Learn 2D and 3D game design, physics, and multiplayer functionality.",
+      "course_price": 79.99,
+      "course_credit": 4
+    },
+    {
+      "course_id": "C008",
+      "course_name": "Cloud Computing with AWS",
+      "course_img": "https://i.ibb.co/0GYMNLd/cloud-computing.jpg",
+      "course_details": "Master cloud computing with Amazon Web Services (AWS). Build and deploy scalable, secure, and reliable cloud applications.",
+      "course_price": 89.99,
+      "course_credit": 4
+    },
+    {
+      "course_id": "C009",
+      "course_name": "Cybersecurity Essentials",
+      "course_img": "https://i.ibb.co/0YPbZ00/cyber-security-image.jpg",
+      "course_details": "Protect your digital world with the knowledge gained from this course. Learn about encryption, network security, and ethical hacking.",
+      "course_price": 69.99,
+      "course_credit": 3
+    }
+  ]
+  
