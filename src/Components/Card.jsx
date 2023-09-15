@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Card({Course}) {
+function Card({Course,handleSetName}) {
 
     const {course_name, course_img, course_details , course_price , course_credit} = (Course || '')
 
@@ -22,7 +22,7 @@ function Card({Course}) {
             </div>
         </div>
 
-        <button className='py-2 w-full text-[#FFF] font-semibold text-base bg-[#2F80ED]  rounded-md'>Select</button>
+        <button onClick={()=>handleSetName(course_name, course_credit)} className='py-2 w-full text-[#FFF] font-semibold text-base bg-[#2F80ED]  rounded-md'>Select</button>
 
     </div>
     
@@ -33,6 +33,7 @@ function Card({Course}) {
 
 Card.propTypes = {
     Course : PropTypes.object.isRequired,
+    handleSetName : PropTypes.func.isRequired,
 }
 
 export default Card;
